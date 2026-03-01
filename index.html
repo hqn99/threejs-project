@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My first three.js app</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+  </head>
+  <body>
+    <div id="loading-screen">
+      <div class="loader-content">
+        <p id="loading-text">LOADING...</p>
+        <div class="progress-container">
+          <div id="progress-bar"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div id="clock-display">00:00:00</div> -->
+
+    <div id="custom-dialog" class="hidden">
+      <div class="dialog-content">
+        <p id="dialog-message">GO TO KITCHEN?</p>
+        <div class="dialog-options">
+          <span id="btn-yes" class="menu-item">YES</span>
+          <span id="btn-no" class="menu-item">NO</span>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
