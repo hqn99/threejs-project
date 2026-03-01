@@ -19,26 +19,26 @@ async function main() {
   // 場所の設定シート
   const areaData = {
     room: {
-      mtl: "./model/room/02100039.mtl",
-      obj: "./model/room/02100039.obj",
+      mtl: "/model/room/02100039.mtl",
+      obj: "/model/room/02100039.obj",
       spawn: { x: -120, y: 160, z: -110 },
       lookAt: { x: -180, y: 120, z: 300 },
     },
     kitchen: {
-      mtl: "./model/kitchen/02100038.mtl",
-      obj: "./model/kitchen/02100038.obj",
+      mtl: "/model/kitchen/02100038.mtl",
+      obj: "/model/kitchen/02100038.obj",
       spawn: { x: 130, y: 160, z: 0 },
       lookAt: { x: -20, y: 120, z: -300 },
     },
     outside: {
-      mtl: "./model/",
-      obj: "./model/",
+      mtl: "/model/",
+      obj: "/model/",
       spawn: { x: 0, y: 160, z: 0 },
       lookAt: { x: 0, y: 120, z: 0 },
     },
     station: {
-      mtl: "./model/",
-      obj: "./model/",
+      mtl: "/model/",
+      obj: "/model/",
       spawn: { x: 0, y: 160, z: 0 },
       lookAt: { x: 0, y: 120, z: 0 },
     },
